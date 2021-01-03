@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&display=swap');
+*{
+	max-width: 100%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0.75px;
+	line-height: 18px;
+}
+body{
+	background-color: #fff;
+	color: #000000;
+}
+.monitoring{
+	border-radius: 32px;
+	overflow: hidden;
+	word-break: break-word;
+}
+.monitoring img{
+	background-color: #C4C4C4;
+	max-height: 120px;
+	width: 100%;
+}
+.monitoring .monitoring-title{
+	font-size: 18px;
+	margin-left: 11px;
+	margin-top: 11px;
+	margin-bottom: 5px;
+}
+.monitoring .server-ip{
+	font-size: 13px;
+	color: #444343;
+	margin-left: 11px;
+}
+#share-progress{
+	border-radius: 32px;
+	border-color: transparent;
+}
+.progress{
+	height: 32px;
+}
+.progress .progress-bar{
+	background-color: #00BA88;
+}
+.progress span{
+	height: 32px;
+	color: #4e4e4e;
+}
+button.connect{
+	background: #A4E7D5;
+	border-radius: 39px;
+	padding: 3px 5px;
+	border-color: transparent;
+	color: #0b7a5c;
+	font-size: 13px;
+	text-align: center;
+	height: auto;
+}
+.btn-outline-primary{
+	border-radius: 16px;
+	border-color: #00BA88;
+	color: #00BA88;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 28px;
+}
+.btn-outline-primary:hover{
+	background-color: #00BA88;
+	color: #f7f7fc;
+}
+.bg-gray{
+	background: #EFF0F6;
+	border-radius: 16px;
+	height: 100%;
+}
+.block-title{
+	font-weight: 600;
+	color: #14142B;
+}
+.top_user, .last_threads{
+	padding: 11px;
+}
+.top_user .user_avatar, .last_threads .user_avatar{
+	max-width: 48px;
+	border-radius: 50%;
+	border-color: transparent;
+}
+.top_user .user_nickname{
+	font-weight: 600;
+	color: #6e7191;
+}
+.last_threads .theard-title{
+	margin-left: 5px;
+	font-weight: 600;
+	font-size: 14px;
+	color: #6e7191;
+}
+.last_threads .theard-time{
+	margin-left: 5px;
+	font-weight: 500;
+	font-size: 14px;
+	color: #6e7191;	
+}
+.last_threads p{
+	margin-bottom: 5px;
+}
