@@ -72,16 +72,16 @@ button.connect{
 .bg-gray{
 	background: #EFF0F6;
 	border-radius: 16px;
-	height: 100%;
+	height: auto;
 }
 .block-title{
 	font-weight: 600;
 	color: #14142B;
 }
-.top_user, .last_threads{
+.top_user, .last_threads, .sidebar-button{
 	padding: 11px;
 }
-.top_user .user_avatar, .last_threads .user_avatar{
+.top_user .user_avatar, .last_threads .user_avatar, .sidebar-button .user_avatar{
 	max-width: 48px;
 	border-radius: 50%;
 	border-color: transparent;
@@ -104,4 +104,142 @@ button.connect{
 }
 .last_threads p{
 	margin-bottom: 5px;
+}
+.sidebar-button .button-text{
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #4e4b66;
+}
+.nd{
+	text-decoration: none;
+}
+.carousel-control-next, .carousel-control-prev{
+	width: 2%;
+	margin: 0 -10px 0 -10px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	background: #EFF0F6;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 50%;
+	border-color: transparent;
+	height: auto;
+	min-width: 35px;
+	min-height: 35px;
+}
+.carousel-control-prev-icon svg, .carousel-control-next-icon svg{
+	margin-top: 5px;
+}
+.carousel-control-prev-icon svg{
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+#mainpage-minisidebar .sidebar-button .button-text{
+	font-size: 16px;
+}
+#chat-block{
+	padding: 5px;
+	max-height: 500px;
+}
+#chat-block .block-title{
+	margin-left: 5px;
+}
+#chat-block .user_message{
+	float: left;
+}
+#chat-block .my_message{
+	float: right;
+}
+#chat-block .message{
+	width: 50%;
+	background: #4E4B66;
+	border-radius: 16px;
+	font-size: 16px;
+	color: #FCFCFC;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#chat-block .user_avatar{
+	max-width: 48px;
+	border-radius: 50%;
+	border-color: transparent;
+	margin: 5px;
+}
+#chat-block .user_nickname{
+	margin-top: 10px;
+	font-weight: 600;
+	margin-left: 5px;
+}
+#chat-block p{
+	margin-bottom: 5px;
+}
+#chat-block .user_msg{
+	font-weight: 500;
+	margin-left: 5px;
+}
+#chat-block #inputs{
+	margin-left: 10px;
+}
+#chat-block #inputs textarea{
+	border-radius: 16px;
+	background: #D6D7DB;
+	border-color: transparent;
+	padding: 10px;
+	font-size: 14px;
+}
+#chat-block #inputs button{
+	background: #00BA88;
+	border-radius: 16px;
+	font-size: 16px;
+	color: #F7F7FC;
+	padding: 10px;
+	border-color: transparent;
+}
+.news_block{
+	padding: 10px;
+}
+.news_image{
+	border-radius: 16px;
+	border-color: transparent;
+}
+.news_title{
+	font-size: 30px;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: #14142B;
+}
+.news_info{
+	padding: 15px;
+}
+.news-date{
+	font-size: 14px;
+	color: #14142B;
+	font-weight: 400;
+	line-height: 38px;
+}
+.news_info .btn-outline-primary{
+	border: 2px solid #D6D8E7;
+	box-sizing: border-box;
+	border-radius: 40px;
+	color: #5F2EEA;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 600;
+	text-align: center;
+}
+.news_info .btn-outline-primary:hover{
+	background-color: #D6D8E7;
+}
+.news_block-second .news_title{
+	text-align: center;
+}
+.news_block-second .news_image{
+	margin: 12px;
+}
+.news_block-second .news_info{
+	margin: 12px;
+    margin-top: 0;
+}
+.news_block-second .news_info .btn-outline-primary{
+	margin-left: 12px;
 }
